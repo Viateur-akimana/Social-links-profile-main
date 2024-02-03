@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Outfit&family=Poppins&family=Red+Hat+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.card{
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    border-radius: 17px;
+    padding: 15px;
+    margin: 3em 1em;
+    
+}
+.card img{
+     text-align: center;
+     width: 3vw;
+     height: auto;
+     margin: 15px;
+     /* margin-bottom: 10px; */
+     border-radius: 50%;
+}
+
+h1{
+    color: white;
+    font-size: medium;
+}
+span{
+    color: yellowgreen;
+    font-size: x-small;
+}
+p{
+    color: white;
+    font-size: xx-small;
+    margin: 15px;
+}
+h3{
+    padding: 8px;
+    font-size: small;
+    color: white;
+    background-color: gray;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.GitHub{
+    background-color: rgba(196, 209, 15, 0.966);
+    color: black;
+}
+
+@media only screen and (max-width: 375px) {
+    .card img{
+        width: 15vw;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .card img{
+        width: 10vw;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 1440px ) {
+    .card img{
+        width: 5vw;
+        height: auto;
+    }
+}
